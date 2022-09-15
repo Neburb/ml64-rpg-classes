@@ -17,6 +17,7 @@ classes:
         animation: Casting
         actions:
           - type: AreaEffect
+            range: 10
             effects:
               - type: Circle
                 positionRelative: true
