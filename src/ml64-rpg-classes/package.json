@@ -1,13 +1,12 @@
 {
-    "name": "ml64-rpg-classes",
-    "version": "1.0.0",
-    "description": "",
-    "main": "Main.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC"
-  }
-  
+  "name": "ml64-rpg-classes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
