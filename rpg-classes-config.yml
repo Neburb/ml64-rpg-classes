@@ -1,0 +1,35 @@
+classChangeDelay: 480
+classes:
+  - name: Mage
+    description: Example class for developing. Everything is subject to change
+    swordDamage: 0
+    defense: 0.25
+    magic: 200
+    speed: 0.9
+    forbiddenTools:
+      - bow
+    skills:
+      - name: DefenseCircle
+        description: Cast a defense circle around you
+        castTime: 1
+        magic: 10
+        type: Continous
+        animation: Casting
+        actions:
+          - type: AreaEffect
+            range: 10
+            effects:
+              - type: Circle
+                positionRelative: true
+                position:
+                  x: 0
+                  y: 0
+                  z: 0
+            up:
+              - defense: 5
+                target: Ally
+            down:
+              - defense: 0
+                target: Ally
+              - health: -1
+                target: Enemy
