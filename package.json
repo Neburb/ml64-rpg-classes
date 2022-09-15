@@ -24,6 +24,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "ts-jest": "^28.0.8",
     "ts-node": "^10.9.1",
-    "typescript": "*"
+    "typescript": "*",
+    "yaml-env-defaults": "^1.1.5"
   }
 }
